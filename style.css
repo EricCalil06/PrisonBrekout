@@ -1,0 +1,327 @@
+body{
+    background-color: #16101D;
+	overflow-x: hidden;
+}
+
+.jumbotron{
+	background-image: url('img/Poster.png');
+  	background-repeat: no-repeat; 
+  	background-position: center center;
+}
+
+img{
+	max-width: 600px;
+	min-width: 40px;
+	width: 100%;
+}
+
+.logo-baixo{
+	max-width: 500px;
+	min-width: 75px;
+	width: 100%;
+}
+
+p{
+	color: rgb(213, 218, 222);
+}
+
+h2{
+	color: #FFBE40;
+}
+
+.baixar{
+	background: none;
+	border: none;
+}
+
+.botoes{
+	display: flex;
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-position: center center;
+  	justify-content: center;
+	position: absolute;
+	top: 750px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 800px;
+	min-width: 40px;
+	width: 100%;
+}
+
+.container{
+	background-color: none;
+}
+
+.card{
+	border-radius: 30px;
+	border: none;
+	background-color: none;
+	background: none;
+}
+
+.card-sm{
+	max-width: 320px;
+}
+
+h2{
+ font-size: 30px;
+}
+
+.sobre{
+	background-color: #20192C;
+}
+
+.card-title{
+	color: aliceblue;
+}
+
+.cardP{
+	color: #FFBE40;
+}
+
+.paragrafo-subido {
+	margin-top: -25px;
+}
+
+.card-header{
+	padding: 25px;
+}
+
+.BTinicio{
+	color: aliceblue;
+	font-size: 25px;
+}
+
+.button {
+	margin: 0;
+	height: auto;
+	background: transparent;
+	padding: 0;
+	border: none;
+  }
+
+.card-text{
+	font-size: 22px;
+	color: cornsilk;
+}
+
+.card-title2{
+	font-size: 26px;
+	color: #FFBE40;
+}
+
+.linhas{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.container_linha{
+	position: relative;
+	height: 10vh;
+}
+
+.obg{
+	font-size: 25px;
+}
+
+.video{
+	border-radius: 30px;
+	width: 100%;
+}
+
+.etapas{
+	display: inline-block;
+    width: 250px;
+    margin: 28px;
+	
+}
+
+   .formail{
+	display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 60vh;
+   }
+
+   .form-container {
+	width: 700px;
+	background: linear-gradient(#212121, #212121) padding-box,
+				linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;
+	border: 2px solid transparent;
+	padding: 32px 24px;
+	font-size: 14px;
+	font-family: inherit;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	box-sizing: border-box;
+	border-radius: 16px;
+	background-size: 200% 100%;
+	animation: gradient 5s ease infinite;
+  }
+  
+  @keyframes gradient {
+	0% {
+	  background-position: 0% 50%;
+	}
+  
+	50% {
+	  background-position: 100% 50%;
+	}
+  
+	100% {
+	  background-position: 0% 50%;
+	}
+  }
+  
+  .form-container button:active {
+	scale: 0.95;
+  }
+  
+  .form-container .form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+  }
+  
+  .form-container .form-group {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+  }
+  
+  .form-container .form-group label {
+	display: block;
+	margin-bottom: 5px;
+	color: #717171;
+	font-weight: 600;
+	font-size: 12px;
+  }
+  
+  .form-container .form-group input {
+	width: 100%;
+	padding: 12px 16px;
+	border-radius: 8px;
+	color: #fff;
+	font-family: inherit;
+	background-color: transparent;
+	border: 1px solid #414141;
+  }
+  
+  .form-container .form-group textarea {
+	width: 100%;
+	padding: 12px 16px;
+	border-radius: 8px;
+	resize: none;
+	color: #fff;
+	height: 96px;
+	border: 1px solid #414141;
+	background-color: transparent;
+	font-family: inherit;
+  }
+  
+  .form-container .form-group input::placeholder {
+	opacity: 0.5;
+  }
+  
+  .form-container .form-group input:focus {
+	outline: none;
+	border-color: #e81cff;
+  }
+  
+  .form-container .form-group textarea:focus {
+	outline: none;
+	border-color: #e81cff;
+  }
+  
+  .form-container .form-submit-btn {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	align-self: flex-start;
+	font-family: inherit;
+	color: #717171;
+	font-weight: 600;
+	width: 40%;
+	background: #313131;
+	border: 1px solid #414141;
+	padding: 12px 16px;
+	font-size: inherit;
+	gap: 8px;
+	margin-top: 8px;
+	cursor: pointer;
+	border-radius: 6px;
+	margin: 0 auto;
+  }
+  
+  .form-container .form-submit-btn:hover {
+	background-color: #fff;
+	border-color: #fff;
+  }
+
+  .fotos{
+	width: 200px;
+	height: 200px;
+  }
+
+ .SobreNos{
+	justify-content: center;
+ }
+
+ .jogue {
+	outline: none;
+	cursor: pointer;
+	border: none;
+	padding: 0.9rem 2rem;
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	position: relative;
+	display: inline-block;
+	letter-spacing: 0.05rem;
+	font-weight: 700;
+	font-size: 17px;
+	border-radius: 500px;
+	overflow: hidden;
+	background: #FF6D33;
+	color: ghostwhite;
+   }
+   
+   .jogue span {
+	position: relative;
+	z-index: 10;
+	transition: color 0.4s;
+   }
+   
+   .jogue:hover span {
+	color: ghostwhite;
+   }
+   
+   .jogue::before,
+   .jogue::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+   }
+   
+   .jogue::before {
+	content: "";
+	background: #3333FF;
+	width: 120%;
+	left: -10%;
+	transform: skew(30deg);
+	transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+   }
+   
+   .jogue:hover::before {
+	transform: translate3d(100%, 0, 0);
+   }
